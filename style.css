@@ -1,0 +1,45 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: verdana;
+  background-color: rgb(91,88,89);
+  color: white;
+}
+
+.sign-up {
+  background-color: rgb(230,230,230);
+  border-radius: 0.5em;
+  width: 30em;
+  height: 35em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.sign-up-title {
+  display: flex;
+  text-align: center;
+}
+
+.sign-up-inputs {
+  border: none;
+  background-color: rgb(177,156,217);
+  color: white;
+  border-radius: 1em;
+  height: 2.5em;
+  width: 25em;
+  margin-bottom: 2em;
+}
+
+.sign-up-input {
+  min-height: 2em;
+  border: none;
+  background-color: grey;
+  color: white;
+  border-radius: 0.8em;
+  height: 1em;
+  width: 25em;
+  margin: 0;
+}

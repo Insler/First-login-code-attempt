@@ -1,0 +1,24 @@
+<head>
+  <link rel="stylesheet" href="style.css">
+  <title>Login</title>
+</head>
+
+
+<body>
+  <div class="Sign-up">
+    <h1 class="Sign-up-title">Login</h1>
+
+    <form id="sign-up-form" action="pages/inicio.html">
+      <p>Email</p>
+      <input type="email" placeholder="Email..." class="sign-up-inputs" required name="email">
+
+      <p>Password</p>
+      <input type="password" placeholder="Password..." class="sign-up-inputs" required minlength="6" name="password"><br>
+
+      <input type="submit" class="sign-up-input" id="sign-up-submit" onclick="submitLogin();">
+    </form>
+    <button class="changeTheme" onclick="changeTheme();">Trocar tema</button>
+  </div>
+</body>
+
+<script src="script.js"></script>
