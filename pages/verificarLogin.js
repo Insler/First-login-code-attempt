@@ -75,7 +75,7 @@ async function verifyTokenDate() {
     const json = await response.json();
   
     if (json[email] && json[email]['token'] === token) {
-      if (parseInt(new Date().getTime()) - parseInt(token.split('-')[1]) >= (60*1000)) {
+      if (parseInt(new Date().getTime()) - parseInt(token.split('-')[1]) >= (120*1000)) {
         return true;
       } else {
         return false;
